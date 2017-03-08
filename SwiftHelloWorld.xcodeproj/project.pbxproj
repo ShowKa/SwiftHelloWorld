@@ -16,6 +16,8 @@
 		A52440971E7055B100AA7B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52440951E7055B100AA7B8D /* LaunchScreen.storyboard */; };
 		A52440A21E7055B100AA7B8D /* SwiftHelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52440A11E7055B100AA7B8D /* SwiftHelloWorldTests.swift */; };
 		A52440AD1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52440AC1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift */; };
+		A5C5C6C71E705710002B5923 /* TheEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */; };
+		A5C5C6C81E705710002B5923 /* TheEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A52440A81E7055B100AA7B8D /* SwiftHelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52440AC1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelloWorldUITests.swift; sourceTree = "<group>"; };
 		A52440AE1E7055B100AA7B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		A52440861E7055B100AA7B8D /* SwiftHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				A5C5C6C41E7056E7002B5923 /* DataModel */,
 				A52440871E7055B100AA7B8D /* AppDelegate.swift */,
 				A524408C1E7055B100AA7B8D /* MasterViewController.swift */,
 				A524408E1E7055B100AA7B8D /* DetailViewController.swift */,
@@ -129,6 +134,16 @@
 				A52440AE1E7055B100AA7B8D /* Info.plist */,
 			);
 			path = SwiftHelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		A5C5C6C41E7056E7002B5923 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */,
+				A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */,
+			);
+			name = DataModel;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +283,8 @@
 				A52440881E7055B100AA7B8D /* AppDelegate.swift in Sources */,
 				A524408B1E7055B100AA7B8D /* SwiftHelloWorld.xcdatamodeld in Sources */,
 				A524408D1E7055B100AA7B8D /* MasterViewController.swift in Sources */,
+				A5C5C6C71E705710002B5923 /* TheEntity+CoreDataClass.swift in Sources */,
+				A5C5C6C81E705710002B5923 /* TheEntity+CoreDataProperties.swift in Sources */,
 				A524408F1E7055B100AA7B8D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +528,7 @@
 				A52440B31E7055B100AA7B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52440B41E7055B100AA7B8D /* Build configuration list for PBXNativeTarget "SwiftHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				A52440B61E7055B100AA7B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A52440B71E7055B100AA7B8D /* Build configuration list for PBXNativeTarget "SwiftHelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +546,7 @@
 				A52440B91E7055B100AA7B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
