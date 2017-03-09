@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0C9DB34F03C58B2AC8F24EE00B95198379E8215C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0DCC644F2060F7F779F359EB05A1BF5C31FD7FE6" : 9223372036854775807,
+    "0C9DB34F03C58B2AC8F24EE00B95198379E8215C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0596E9B0-4FDB-4F88-915C-7079D7C6DB31",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0DCC644F2060F7F779F359EB05A1BF5C31FD7FE6" : "simperium-ios\/",
+    "0C9DB34F03C58B2AC8F24EE00B95198379E8215C" : "SwiftHelloWorld\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftHelloWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftHelloWorld.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ShowKa\/SwiftHelloWorld.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C9DB34F03C58B2AC8F24EE00B95198379E8215C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Simperium\/simperium-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0DCC644F2060F7F779F359EB05A1BF5C31FD7FE6"
+    }
+  ]
+}

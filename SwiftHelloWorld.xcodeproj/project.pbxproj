@@ -18,6 +18,14 @@
 		A52440AD1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52440AC1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift */; };
 		A5C5C6C71E705710002B5923 /* TheEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */; };
 		A5C5C6C81E705710002B5923 /* TheEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */; };
+		A5C8F5921E705D3A0079E8B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5911E705D3A0079E8B5 /* CoreData.framework */; };
+		A5C8F5941E705D430079E8B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5931E705D430079E8B5 /* SystemConfiguration.framework */; };
+		A5C8F5961E705D4B0079E8B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5951E705D4B0079E8B5 /* MobileCoreServices.framework */; };
+		A5C8F5981E705D520079E8B5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5971E705D520079E8B5 /* CFNetwork.framework */; };
+		A5C8F59A1E705D590079E8B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5991E705D590079E8B5 /* Security.framework */; };
+		A5C8F59C1E705D6D0079E8B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F59B1E705D6D0079E8B5 /* libz.tbd */; };
+		A5C8F59E1E705D770079E8B5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F59D1E705D770079E8B5 /* libicucore.tbd */; };
+		A5C8F59F1E705DB60079E8B5 /* Simperium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5891E705CE70079E8B5 /* Simperium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = A52440831E7055B100AA7B8D;
 			remoteInfo = SwiftHelloWorld;
+		};
+		A5C8F5881E705CE70079E8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5CAA4B41CAAB369006FE048;
+			remoteInfo = Simperium_iOS;
+		};
+		A5C8F58A1E705CE70079E8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5CAA60B1CAAED3D006FE048;
+			remoteInfo = Simperium_OSX;
+		};
+		A5C8F58C1E705CE70079E8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 264CD908135DFD7A00C51BAD;
+			remoteInfo = IntegrationTests;
+		};
+		A5C8F58E1E705CE70079E8B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5E8D33A1831237500AE2C5A;
+			remoteInfo = UnitTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +91,14 @@
 		A52440AE1E7055B100AA7B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Simperium.xcodeproj; path = "../simperium-ios/Simperium.xcodeproj"; sourceTree = "<group>"; };
+		A5C8F5911E705D3A0079E8B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A5C8F5931E705D430079E8B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A5C8F5951E705D4B0079E8B5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A5C8F5971E705D520079E8B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A5C8F5991E705D590079E8B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A5C8F59B1E705D6D0079E8B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A5C8F59D1E705D770079E8B5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +106,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C8F59F1E705DB60079E8B5 /* Simperium.framework in Frameworks */,
+				A5C8F59E1E705D770079E8B5 /* libicucore.tbd in Frameworks */,
+				A5C8F59C1E705D6D0079E8B5 /* libz.tbd in Frameworks */,
+				A5C8F59A1E705D590079E8B5 /* Security.framework in Frameworks */,
+				A5C8F5981E705D520079E8B5 /* CFNetwork.framework in Frameworks */,
+				A5C8F5961E705D4B0079E8B5 /* MobileCoreServices.framework in Frameworks */,
+				A5C8F5941E705D430079E8B5 /* SystemConfiguration.framework in Frameworks */,
+				A5C8F5921E705D3A0079E8B5 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +141,8 @@
 				A52440A01E7055B100AA7B8D /* SwiftHelloWorldTests */,
 				A52440AB1E7055B100AA7B8D /* SwiftHelloWorldUITests */,
 				A52440851E7055B100AA7B8D /* Products */,
+				A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */,
+				A5C8F5901E705D3A0079E8B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +198,31 @@
 			);
 			name = DataModel;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		A5C8F5821E705CE60079E8B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C8F5891E705CE70079E8B5 /* Simperium.framework */,
+				A5C8F58B1E705CE70079E8B5 /* Simperium.framework */,
+				A5C8F58D1E705CE70079E8B5 /* IntegrationTests.xctest */,
+				A5C8F58F1E705CE70079E8B5 /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C8F5901E705D3A0079E8B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C8F59D1E705D770079E8B5 /* libicucore.tbd */,
+				A5C8F59B1E705D6D0079E8B5 /* libz.tbd */,
+				A5C8F5991E705D590079E8B5 /* Security.framework */,
+				A5C8F5971E705D520079E8B5 /* CFNetwork.framework */,
+				A5C8F5951E705D4B0079E8B5 /* MobileCoreServices.framework */,
+				A5C8F5931E705D430079E8B5 /* SystemConfiguration.framework */,
+				A5C8F5911E705D3A0079E8B5 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +318,12 @@
 			mainGroup = A524407B1E7055B100AA7B8D;
 			productRefGroup = A52440851E7055B100AA7B8D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5C8F5821E705CE60079E8B5 /* Products */;
+					ProjectRef = A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A52440831E7055B100AA7B8D /* SwiftHelloWorld */,
@@ -247,6 +332,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A5C8F5891E705CE70079E8B5 /* Simperium.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Simperium.framework;
+			remoteRef = A5C8F5881E705CE70079E8B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5C8F58B1E705CE70079E8B5 /* Simperium.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Simperium.framework;
+			remoteRef = A5C8F58A1E705CE70079E8B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5C8F58D1E705CE70079E8B5 /* IntegrationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IntegrationTests.xctest;
+			remoteRef = A5C8F58C1E705CE70079E8B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5C8F58F1E705CE70079E8B5 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = A5C8F58E1E705CE70079E8B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A52440821E7055B100AA7B8D /* Resources */ = {
