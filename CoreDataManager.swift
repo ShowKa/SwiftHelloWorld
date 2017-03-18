@@ -18,6 +18,8 @@ class CoreDataManager {
         }
         return Static.instance
     }
+    
+    private init() {}
 
     lazy var applicationDocumentsDirectory: NSURL = {
         let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
@@ -52,9 +54,13 @@ class CoreDataManager {
     }()
     
     lazy var managedObjectContext: NSManagedObjectContext = {
-        let coordinator = self.persistentStoreCoordinator
+        
+        // NSManagedObjectContext's persistentStoreCoordinator must be nil.
+        // Simperium will handle CoreData connections for you.
+        // let coordinator = self.persistentStoreCoordinator
+        // managedObjectContext.persistentStoreCoordinator = coordinator
+        
         var managedObjectContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
-        managedObjectContext.persistentStoreCoordinator = coordinator
         return managedObjectContext
     }()
     

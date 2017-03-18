@@ -15,7 +15,7 @@ extension TheEntity {
     @nonobjc public class func fetchRequest() -> NSFetchRequest<TheEntity> {
         return NSFetchRequest<TheEntity>(entityName: "TheEntity");
     }
-
+    
     @NSManaged public var name: String?
     @NSManaged public var id: Int16
     @NSManaged public var time: NSDate?

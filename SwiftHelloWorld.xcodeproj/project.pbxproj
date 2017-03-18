@@ -17,6 +17,7 @@
 		A52440A21E7055B100AA7B8D /* SwiftHelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52440A11E7055B100AA7B8D /* SwiftHelloWorldTests.swift */; };
 		A52440AD1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52440AC1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift */; };
 		A59EA00C1E78412B007E3004 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59EA00B1E78412B007E3004 /* CoreDataManager.swift */; };
+		A5B2D19D1E7AD75100E65912 /* SimperiumAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B2D19C1E7AD75100E65912 /* SimperiumAuth.swift */; };
 		A5C5C6C71E705710002B5923 /* TheEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */; };
 		A5C5C6C81E705710002B5923 /* TheEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */; };
 		A5C8F5921E705D3A0079E8B5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5911E705D3A0079E8B5 /* CoreData.framework */; };
@@ -27,6 +28,7 @@
 		A5C8F59C1E705D6D0079E8B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F59B1E705D6D0079E8B5 /* libz.tbd */; };
 		A5C8F59E1E705D770079E8B5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F59D1E705D770079E8B5 /* libicucore.tbd */; };
 		A5C8F59F1E705DB60079E8B5 /* Simperium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C8F5891E705CE70079E8B5 /* Simperium.framework */; };
+		A5DB4F681E7ACE39008D352A /* SimeperiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DB4F671E7ACE39008D352A /* SimeperiumManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,7 @@
 		A52440AC1E7055B100AA7B8D /* SwiftHelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelloWorldUITests.swift; sourceTree = "<group>"; };
 		A52440AE1E7055B100AA7B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A59EA00B1E78412B007E3004 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A5B2D19C1E7AD75100E65912 /* SimperiumAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimperiumAuth.swift; sourceTree = "<group>"; };
 		A5C5C6C51E705710002B5923 /* TheEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A5C5C6C61E705710002B5923 /* TheEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TheEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A5C8F5811E705CE60079E8B5 /* Simperium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Simperium.xcodeproj; path = "../simperium-ios/Simperium.xcodeproj"; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 		A5C8F5991E705D590079E8B5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A5C8F59B1E705D6D0079E8B5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		A5C8F59D1E705D770079E8B5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		A5DB4F671E7ACE39008D352A /* SimeperiumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimeperiumManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,7 @@
 		A52440861E7055B100AA7B8D /* SwiftHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				A5DB4F621E7ACE1E008D352A /* Simperium */,
 				A5C5C6C41E7056E7002B5923 /* DataModel */,
 				A52440871E7055B100AA7B8D /* AppDelegate.swift */,
 				A524408C1E7055B100AA7B8D /* MasterViewController.swift */,
@@ -226,6 +231,15 @@
 				A5C8F5911E705D3A0079E8B5 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5DB4F621E7ACE1E008D352A /* Simperium */ = {
+			isa = PBXGroup;
+			children = (
+				A5DB4F671E7ACE39008D352A /* SimeperiumManager.swift */,
+				A5B2D19C1E7AD75100E65912 /* SimperiumAuth.swift */,
+			);
+			name = Simperium;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,9 +415,11 @@
 			files = (
 				A52440881E7055B100AA7B8D /* AppDelegate.swift in Sources */,
 				A524408B1E7055B100AA7B8D /* SwiftHelloWorld.xcdatamodeld in Sources */,
+				A5B2D19D1E7AD75100E65912 /* SimperiumAuth.swift in Sources */,
 				A524408D1E7055B100AA7B8D /* MasterViewController.swift in Sources */,
 				A5C5C6C71E705710002B5923 /* TheEntity+CoreDataClass.swift in Sources */,
 				A5C5C6C81E705710002B5923 /* TheEntity+CoreDataProperties.swift in Sources */,
+				A5DB4F681E7ACE39008D352A /* SimeperiumManager.swift in Sources */,
 				A59EA00C1E78412B007E3004 /* CoreDataManager.swift in Sources */,
 				A524408F1E7055B100AA7B8D /* DetailViewController.swift in Sources */,
 			);
